@@ -1,12 +1,12 @@
-import java.util.Arrays;
 public class FindOdd {
     public static int findIt(int[] a) {
       
       int[] u = {};
+     
       int n = 0;
 //       int[] ar = {a[i]};
       Arrays.sort(a);
-      for (int i = 1; 1 <a.length; i++){if (/*a[i] is in u*/Arrays.binarySearch(u,a[i])==0){n++;/*u.push(a[i])*/}}
+      for (int i = 1; 1 <a.length; i++){if (!(/*a[i] is in u*/)){n++;/*add a[i] to u*->/}}
       for (int j=1; j<n; j++){if(!((u[j]&1) == 0)){n = j;}}
       //u.length
         return u[n];
