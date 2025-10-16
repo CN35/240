@@ -1,5 +1,6 @@
 import java.util.*;
 public class Driver {
+  const CommissionCalculator;
   static Scanner input = new Scanner(System.in);
     public static void main(String[] args)
     {
@@ -50,7 +51,8 @@ public class Driver {
         System.out.println("Term: ");int term6 = input.nextInt();
         System.out.println("Commission: $");int commission6 = input.nextInt();
         break;
-      case 7:break;}}
+      case 7:break;}
+      }
                // Create commission calculator
             
              CommissionCalculator calc = new CommissionCalculator();
