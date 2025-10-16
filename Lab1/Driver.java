@@ -4,6 +4,7 @@ public class Driver {
     public static void main(String[] args)
     {
       System.out.println("-----------------------------\nWelcome to Parkland Insurance\n-----------------------------\nEnter any of the following:\n1) Enter auto insurance policy information\n2) Enter home insurance policy information\n3) Enter life insurance policy information\n4) Compute commission and print auto policy\n5) Compute commission and print home policy\n6) Compute commission and print life policy\n7) Quit");
+      while (m!=7){
       int m = input.nextInt();switch (m){
       case 1:
         System.out.println("First name of insured: ");String first1 = input.nextLine(); 
@@ -49,7 +50,7 @@ public class Driver {
         System.out.println("Term: ");int term6 = input.nextInt();
         System.out.println("Commission: $");int commission6 = input.nextInt();
         break;
-      case 7:break;}
+      case 7:break;}}
                // Create commission calculator
             
              CommissionCalculator calc = new CommissionCalculator();
