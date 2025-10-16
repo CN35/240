@@ -1,24 +1,18 @@
 import java.util.*;
 
-public class CommissionCalculator {public void run(){
+public class CommissionCalculator {
+    public void run(){
        // Create and set an Auto policy object setting data using constructor
        Auto a = new Auto("Jerry", "Seinfed", "Chevy", "Malibu", 10000.0, 50000.0);
 
        // Compute commission
-       a.computeCommission(/*name4,make4,model4,liability4,collision,commission4*/);
-  
+       a.computeCommission();
+
        // Print auto policy
        System.out.println(a);
       
-       // Create and set a Home policy object setting data using setters
-       Home h = new Home("Elaine", "Benes", 5000, 4000, 32000, 10000);
-
-       h.setFirstName("Elaine");
-       h.setLastName("Benes");
-       h.setContents(5000);//are these nessiacary
-       h.setDwelling(32000);
-       h.setFootage(4000);//What this is for
-       h.setLiability(10000);
+       // Create and set a Home policy object setting data using constructor
+       Home h = new Home("Elaine", "Benes", 4000, 32000, 5000, 10000);
 
        // Compute commission
        h.computeCommission();
@@ -40,8 +34,10 @@ public class CommissionCalculator {public void run(){
        System.out.println("Get life lastName: " + l.getLastName());
        System.out.println("Get life age: " + l.getAge());
        System.out.println("Get life term: " + l.getTerm());
-    
     }
     
-    public static void main(String[] args){CommissionCalculator calc = new CommissionCalculator();calc.run();}
+    public static void main(String[] args){
+        CommissionCalculator calc = new CommissionCalculator();
+        calc.run();
+    }
 }
