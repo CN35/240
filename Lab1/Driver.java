@@ -1,67 +1,80 @@
 import java.util.*;
-public class Driver {
-  const CommissionCalculator;
-  static Scanner input = new Scanner(System.in);
-    public static void main(String[] args)
-    {
-      System.out.println("-----------------------------\nWelcome to Parkland Insurance\n-----------------------------\nEnter any of the following:\n1) Enter auto insurance policy information\n2) Enter home insurance policy information\n3) Enter life insurance policy information\n4) Compute commission and print auto policy\n5) Compute commission and print home policy\n6) Compute commission and print life policy\n7) Quit");
-      while (m!=7){
-      int m = input.nextInt();switch (m){
-      case 1:
-        System.out.println("First name of insured: ");String first1 = input.nextLine(); 
-        System.out.println("Last name of insured: ");String last1 = input.nextLine(); 
-        System.out.println("Make of vehicle: ");String make1 = input.nextLine(); 
-        System.out.println("Model of vehicle: ");String vehicle1 = input.nextLine(); 
-        System.out.println("Amount of liability: ");int liability1 = input.nextInt();
-        System.out.println("Amount of collision: ");int collision1 = input.nextInt();
-        break;
-      case 2:
-        System.out.println("First name of insured: ");String first2 = input.nextLine(); 
-        System.out.println("Last name of insured: ");String last2 = input.nextLine(); 
-        System.out.println("house square footage: ");int footage2 = input.nextInt();
-        System.out.println("Amount of dwelling: $");int dwelling2 = input.nextInt();
-        System.out.println("Amount of contents: $");int contents2 = input.nextInt();
-        System.out.println("Amount of liability: $");int liability2 = input.nextInt();
-        break;
-      case 3:
-        System.out.println("First name of insured: ");String first3 = input.nextLine(); 
-        System.out.println("Last name of insured: ");String last3 = input.nextLine(); 
-        System.out.println("Age of insured: ");int age3 = input.nextInt();
-        System.out.println("Term: ");int term3 = input.nextInt();
-        break;
-      case 4:
-        System.out.println("Name: ");String name4 = input.nextLine(); 
-        System.out.println("Make: ");String make4 = input.nextLine(); 
-        System.out.println("Model: ");String model4 = input.nextLine(); 
-        System.out.println("Liability: $");int liability4 = input.nextInt();
-        System.out.println("Collision: $");int collision4 = input.nextInt();
-        System.out.println("Commission: $");int commission4 = input.nextInt();
-        break;
-      case 5:
-        System.out.println("Name: ");String name5 = input.nextLine(); 
-        System.out.println("Footage: ");int footage5 = input.nextInt();
-        System.out.println("Dwelling: $");int dwelling5 = input.nextInt();
-        System.out.println("Contents: $");int contents5 = input.nextInt();
-        System.out.println("Liability: $");int liability5 = input.nextInt();
-        System.out.println("Commission: ");int commission5 = input.nextInt();
-        break;
-      case 6:
-        System.out.println("Name: ");String name6 = input.nextLine();
-        System.out.println("Age: ");int age6 = input.nextInt();
-        System.out.println("Term: ");int term6 = input.nextInt();
-        System.out.println("Commission: $");int commission6 = input.nextInt();
-        break;
-      case 7:break;}
-      }
-               // Create commission calculator
+
+
+public class PolicyTest {
+                          //class Auto/*a*/{String fn;String ln;String loc1;String loc2;int liab;int coll; public static/*void*/double computeCommission(String fn,String ln,String loc1,String loc2,int liab,int coll){return liab+coll*.3;}}
+                          //class Home/*h*/{String fn;String ln;int liab;int foot;int dwel;int cont; public static/*void*/double computeCommission(String fn,String ln,int liab,int foot,int dwel,int cont){return (liab*.3)+((dwel+cont)*.2);}}/*a.*/
+                          //class Life/*l*/{String fn;String ln;int age;int term; public static/*void*/double computeCommission(String fn,String ln,int age,int term){return term*.2;}}
+      
+
+      // public static void main(String[] args)
+      // {
+          
+             // Create and set an Auto policy object setting data using constructor
+
+             Auto a = new Auto("Jerry", "Seinfed", "Chevy", "Malibu", 10000.0, 50000.0);
             
-             CommissionCalculator calc = new CommissionCalculator();
+
+             // Compute commission
+
+             a.computeCommission();
+
+
+             // Print auto policy
+
+             System.out.println(a);
+
+
+             // Create and set a Home policy object setting data using setters
+
+             Home h = new Home();
+
+             h.setFirstName("Elaine");
+             h.setLastName("Benes");
+             h.setContents(5000);
+             h.setDwelling(32000);
+             h.setFootage(4000);
+             h.setLiability(10000);
+
             
+
+             // Compute commission
+
+             h.computeCommission();
+
+ 
+
+             // Print home policy
+
+             System.out.println(h);
+
             
+
+             // Create and set an Life policy object setting data using constructor
+
+             Life l = new Life("Cosmo", "Kramer", 35, 50000);
+
             
-             // Run commission calculator
+
+             // Compute commission
+
+             l.computeCommission();
+
             
-             calc.run();
-      }
-    
-}
+
+             // Print life policy
+
+             System.out.println(l);
+
+            
+
+             // Test getters
+
+             System.out.println("Get life firstName: " + l.getFirstName());
+             System.out.println("Get life lastName: " + l.getLastName());
+             System.out.println("Get life age: " + l.getAge());
+             System.out.println("Get life term: " + l.getTerm());
+
+       }
+
+//}
