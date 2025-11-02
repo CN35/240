@@ -5,7 +5,7 @@ public class Driver {
              CommissionCalculator calc = new CommissionCalculator();
 
              // Run commission calculator
-             calc.Run();
+             calc.run();
        }
 
 }
