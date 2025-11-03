@@ -5,6 +5,6 @@ public class Priority {
       public void setPrirority() {}
       public void getPrirority() {}
       //Task
-      System.out.println()
+      System.out.println("\n-");
   }
 }
