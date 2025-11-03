@@ -1,10 +1,6 @@
-import java.util.*, Math;
-
-public class Priority {
+public class Prirority {
     public static void main(String[] args) {
       public void setPrirority() {}
       public void getPrirority() {}
-      //Task
-      System.out.println("\n-");
   }
 }
