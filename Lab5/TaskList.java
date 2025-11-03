@@ -5,5 +5,6 @@ public class TaskList {
         //inv Task
         System.out.println("Priority Task List\n------------------");
         // for
+        {System.out.println();}
   }
 }
