@@ -1,4 +1,6 @@
 public class Task {
 
-/*public */String ta
+public String task;
+public int id;
 }
+
