@@ -13,10 +13,10 @@ public class TaskList {
         task5.getPrirority(); task5.setPrirority();
   
   // {  
-        /*  */System.out.println("\t\t"+/*+(-.length+2)*/);}
-        /*  */System.out.println("\t\t"+/*+(-.length+2)*/);}
-        /*  */System.out.println("\t\t"+/*+(-.length+2)*/);}
-        /*  */System.out.println("\t\t"+/*+(-.length+2)*/);}
-        /*  */System.out.println("\t\t"+/*+(-.length+2)*/);}
+        /*  */System.out.println(task1.task+"\t\tprirority: "+task1.id);}
+        /*  */System.out.println(task2.task+"\t\tprirority: "+task2.id);}
+        /*  */System.out.println(task3.task+"\t\tprirority: "+task3.id);}
+        /*  */System.out.println(task4.task+"\t\tprirority: "+task4.id);}
+        /*  */System.out.println(task5.task+"\t\tprirority: "+task5.id);}
   }
 }
