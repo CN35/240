@@ -3,7 +3,7 @@ public class TaskList {
     public static void main(String[] args) {
         //inv Task
         System.out.println("Priority Task List\n------------------");
-        Task task1,task2,task3,task4,task5 = {task, id};//for(int i=0;i<5;i++)
+        Task task1,task2,task3,task4,task5 =/*new task*/ {task, id};//for(int i=0;i<5;i++)
         //String space="";
         // for(){=space.conc}
         task1.getPrirority(); task1.setPrirority();
