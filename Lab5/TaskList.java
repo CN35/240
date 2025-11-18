@@ -4,6 +4,11 @@ public class TaskList {
         //inv Task
         System.out.println("Priority Task List\n------------------");
         Task task1,task2,task3,task4,task5 =/*new task*/ {name, id};//for(int i=0;i<5;i++)
+        task1.name = "Attend class";
+        task1.name = "Homework";
+        task1.name = "Exercise";
+        task1.name = "Eat breakfast";
+        task1.name = "Eat lunch";
         String space="";
         // for(){=space.conc}
         /*task1.getPrirority(); */task1.setPrirority(1);
