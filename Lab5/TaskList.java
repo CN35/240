@@ -3,7 +3,7 @@ public class TaskList {
     public static void main(String[] args) {
         //inv Task
         System.out.println("Priority Task List\n------------------");
-        Task task1,task2,task3,task4,task5 =/*new task*/ {task, id};//for(int i=0;i<5;i++)
+        new Task task1,task2,task3,task4,task5 =/*new task*/ {task, id};//for(int i=0;i<5;i++)
         String space="";
         // for(){=space.conc}
         task1.getPrirority(); task1.setPrirority();
@@ -14,7 +14,7 @@ public class TaskList {
   
   // {  
         /*  */System.out.println(task1.task+space+"\t\tprirority: "+task1.id);}
-        /*  */System.out.println(task task2.task+space+"\t\tprirority: "+task2.id);}
+        /*  */System.out.println(task2.task+space+"\t\tprirority: "+task2.id);}
         /*  */System.out.println(task3.task+space+"\t\tprirority: "+task3.id);}
         /*  */System.out.println(task4.task+space+"\t\tprirority: "+task4.id);}
         /*  */System.out.println(task5.task+space+"\t\tprirority: "+task5.id);}
