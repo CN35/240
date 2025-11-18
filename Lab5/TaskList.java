@@ -1,4 +1,4 @@
-import java.util.*, Math;
+import java.util.*/*, Math*/;
 public class TaskList {
     public static void main(String[] args) {
         //inv Task
