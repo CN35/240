@@ -14,7 +14,7 @@ public class TaskList {
   
   // {  
         /*  */System.out.println(task1.task+space+"\t\tprirority: "+task1.id);}
-        /*  */System.out.println(task2.task+space+"\t\tprirority: "+task2.id);}
+        /*  */System.out.println(task task2.task+space+"\t\tprirority: "+task2.id);}
         /*  */System.out.println(task3.task+space+"\t\tprirority: "+task3.id);}
         /*  */System.out.println(task4.task+space+"\t\tprirority: "+task4.id);}
         /*  */System.out.println(task5.task+space+"\t\tprirority: "+task5.id);}
