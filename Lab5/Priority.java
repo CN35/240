@@ -1,4 +1,8 @@
 public interface Prirority {
     void setPrirority();
-    void getPrirority();
+    {
+      
+    }
+    void getPrirority()
+    {return ;}
 }
