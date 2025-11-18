@@ -3,5 +3,5 @@ public interface Prirority {
     {name
     id}
     void getPrirority()
-    {return Task;}
+    {return {Task};}
 }
