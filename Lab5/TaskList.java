@@ -6,7 +6,8 @@ public class TaskList {
         Task task1,task2,task3,task4,task5 =/*new task*/ {name, id};//for(int i=0;i<5;i++)
         String space="";
         // for(){=space.conc}
-        /*task1.getPrirority(); */task2.setPrirority(2);
+        /*task1.getPrirority(); */task1.setPrirority(1);
+        /*task2.getPrirority(); */task2.setPrirority(2);
         /*task3.getPrirority(); */task3.setPrirority(3);
         /*task4.getPrirority(); */task4.setPrirority(4);
         /*task5.getPrirority(); */task5.setPrirority(5);
