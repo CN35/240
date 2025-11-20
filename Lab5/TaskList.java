@@ -3,7 +3,7 @@ public class TaskList {
     public static void main(String[] args) {
         //inv Task
         System.out.println("Priority Task List\n------------------");
-        Task task1,task2,task3,task4,task5 =/*new task*/ {name, id};//for(int i=0;i<5;i++)
+        Task task1,task2,task3,task4,task5 = new Task(name, id);//for(int i=0;i<5;i++)
         task1.name = "Attend class";
         task1.name = "Homework";
         task1.name = "Exercise";
