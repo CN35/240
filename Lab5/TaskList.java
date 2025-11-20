@@ -3,13 +3,14 @@ public class TaskList {
     public static void main(String[] args) {
         //inv Task
         System.out.println("Priority Task List\n------------------");
-        Task task1,task2,task3,task4,task5 = new Task(name, id);//for(int i=0;i<5;i++)
-        task1.name = "Attend class";
-        task1.name = "Homework";
-        task1.name = "Exercise";
-        task1.name = "Eat breakfast";
-        task1.name = "Eat lunch";
+        // Task task1,task2,task3,task4,task5 = new Task(name, id);
+        Task task1 = new Task("Attend class");
+        Task task2 = new Task("Homework");
+        Task task3 = new Task("Exercise");
+        Task task4 = new Task("Eat breakfast");
+        task5.name = "Eat lunch");
         String space="";
+        //for(int i=0;i<5;i++)
         // for(){=space.conc}
         /*task1.getPrirority(); */task1.setPrirority(1);
         /*task2.getPrirority(); */task2.setPrirority(2);
