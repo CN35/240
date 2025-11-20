@@ -1,6 +1,7 @@
 public interface Prirority {
-    public void setPrirority(int id)
+    public void setPrirority(int id);
 
-    public int getPrirority()
+    public int getPrirority();
 
 }
+
