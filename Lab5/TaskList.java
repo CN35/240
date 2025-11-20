@@ -18,10 +18,10 @@ public class TaskList {
         /*task5.getPrirority(); */task5.setPrirority(5);
   
   // {  
-        /*  */System.out.println(task1.name+space+"\t\tprirority: "+task1.id);}
-        /*  */System.out.println(task2.name+/**/ space+"\t\tprirority: "+task2.id);}
-        /*  */System.out.println(task3.name+space+"\t\tprirority: "+task3.id);}
-        /*  */System.out.println(task4.name+space+"\t\tprirority: "+task4.id);}
-        /*  */System.out.println(task5.name+space+"\t\tprirority: "+task5.id);}
-  }
+    /*       */System.out.println(task1.name+space+"\t\tprirority: "+task1.id);
+    // /*       */System.out.println(task2.name+/**/ space+"\t\tprirority: "+task2.id);
+    // /*       */System.out.println(task3.name+space+"\t\tprirority: "+task3.id);
+    // /*       */System.out.println(task4.name+space+"\t\tprirority: "+task4.id);
+    // /*       */System.out.println(task5.name+space+"\t\tprirority: "+task5.id);
+  }//}
 }
