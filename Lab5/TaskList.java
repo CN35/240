@@ -8,7 +8,7 @@ public class TaskList {
         Task task2 = new Task("Homework");
         Task task3 = new Task("Exercise");
         Task task4 = new Task("Eat breakfast");
-        task5.name = "Eat lunch");
+        Task task5 = new Task("Eat lunch");
         String space="";
         //for(int i=0;i<5;i++)
         // for(){=space.conc}
@@ -20,9 +20,9 @@ public class TaskList {
   
   // {  
     /*       */System.out.println(task1.name+space+"\t\tprirority: "+task1.id);
-    // /*       */System.out.println(task2.name+/**/ space+"\t\tprirority: "+task2.id);
-    // /*       */System.out.println(task3.name+space+"\t\tprirority: "+task3.id);
-    // /*       */System.out.println(task4.name+space+"\t\tprirority: "+task4.id);
-    // /*       */System.out.println(task5.name+space+"\t\tprirority: "+task5.id);
+    /*       */System.out.println(task2.name+/**/ space+"\t\tprirority: "+task2.id);
+    /*       */System.out.println(task3.name+space+"\t\tprirority: "+task3.id);
+    /*       */System.out.println(task4.name+space+"\t\tprirority: "+task4.id);
+    /*       */System.out.println(task5.name+space+"\t\tprirority: "+task5.id);
   /*}*/}
 }
