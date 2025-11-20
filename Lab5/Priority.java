@@ -1,6 +1,6 @@
 public interface Prirority {
-    void setPrirority(Task task, int task.id);
-    {Task.id=task.id;}
-    void getPrirority(Task task)
+    public void setPrirority(int id);
+    {Task.id=id;}
+    public int getPrirority(Task task)
     {return task.id;}
 }
