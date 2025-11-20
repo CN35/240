@@ -1,7 +1,8 @@
 public class Task {
 
-private String name;
+public String name;
 private int id;
 
   
 }
+
