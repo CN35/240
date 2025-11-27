@@ -36,7 +36,7 @@ public class CommissionCalculator
 			System.out.println("-----------------------------");
 			System.out.println("Welcome to Parkland Insurance");
 			System.out.println("-----------------------------");
-			System.out.println("Enter any of the following:");
+			System.out.println("If using onecompiler, input a number in 'STDIN' before running. Please enter any of the following:");
 			System.out.println("\t1) Enter auto insurance policy information");
 			System.out.println("\t2) Enter home insurance policy information");
 			System.out.println("\t3) Enter life insurance policy information");
