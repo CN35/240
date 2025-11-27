@@ -9,4 +9,3 @@ private int id=-1;
     public void setPrirority(int id) {this.id=id;}
     public int getPrirority() {return id;}
 }
-
