@@ -1,7 +1,7 @@
 import Scanner;public class MonetaryValue {
 
     ;;//sc
-    while (!="")
+    while (ch!="quit")
     {}
 
 
