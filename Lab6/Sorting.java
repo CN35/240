@@ -1,5 +1,5 @@
 public class Sorting
-{//The slight modifications it was talking about will probably be the rng factor that selects random numbers and names
+{//The slight modifications it was talking about will probably be the rng factor that selects random numbers and names, or it goes in gradebook class
    //-----------------------------------------------------------------
    //  Sorts the specified array of objects using the selection
    //  sort algorithm.
