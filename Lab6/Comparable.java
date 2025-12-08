@@ -1,5 +1,5 @@
 public interface Priority 
-{
+{//Student numbers
 	// Constants for max and min priority levels
 	static final <identifier> <name> = <value>;
 	static final <identifier> <name> = <value>;
