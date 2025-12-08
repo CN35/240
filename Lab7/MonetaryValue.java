@@ -1,7 +1,7 @@
-public class NewClass1 {
+import Scanner;public class MonetaryValue {
 
-    // public static (){}
-    for (int t = 1;t=5;t++)
+    ;;//sc
+    while (!="")
     {}
 
 
