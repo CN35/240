@@ -1,5 +1,4 @@
-import java.util.Scanner;public class MonetaryValue {
-  import Math.random;
+import java.util.Scanner; import java.util.Math;public class MonetaryValue {
     sc = new Scanner(System.in);String ch = sc.nextLine();
     while (ch!="quit")
     {
