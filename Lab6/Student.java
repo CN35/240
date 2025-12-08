@@ -1,7 +1,7 @@
 public class Student implements Comparable 
-{
-	public
-	public
+{//Student names
+	public//First names
+	public//Last names
 	}
 
 
