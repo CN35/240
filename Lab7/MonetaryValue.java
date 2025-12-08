@@ -1,6 +1,6 @@
-import Scanner;public class MonetaryValue {
+import java.util.Scanner;public class MonetaryValue {
 
-    ;;//sc
+    String ch = new Scanner(System.in);//;nex
     while (ch!="quit")
     {}
 
