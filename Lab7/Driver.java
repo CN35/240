@@ -1,9 +1,6 @@
 public class Driver {
-       public static void main(String[] args)
+    public static void main(String[] args)
        {
-             MonetaryValue mv = new MonetaryValue();
-
-             mv.run();
-       }
-
-}
+       MonetaryValue mv = new MonetaryValue();
+       mv.run();
+       }}
